@@ -1,15 +1,15 @@
 //
-//  NSString+Extend.m
-//  AllTestHere15
+//  NSString+HJEncrypt.m
+//  s_ios_categories
 //
-//  Created by hs on 16/11/28.
-//  Copyright © 2016年 shj. All rights reserved.
+//  Created by shj on 2018/1/2.
+//  Copyright © 2018年 SHEN HJ. All rights reserved.
 //
 
-#import "NSString+Extend.h"
+#import "NSString+HJEncrypt.h"
 #import <CommonCrypto/CommonDigest.h>
 
-@implementation NSString (Extend)
+@implementation NSString (HJEncrypt)
 
 + (NSString *)md5:(NSString *)str {
     const char *cStr = [str UTF8String];
@@ -22,13 +22,6 @@
              result[8], result[9], result[10], result[11],
              result[12], result[13], result[14], result[15]
              ] uppercaseString];
-}
-
-+ (CGSize)sizeofString:(NSString *)string font:(UIFont *)font maxWidth:(CGFloat)width {
-    CGSize constrain = CGSizeMake(width, FLT_MAX);
-    NSDictionary *attr = @{NSFontAttributeName:font};
-    CGRect frame = [string boundingRectWithSize:constrain options:NSStringDrawingUsesLineFragmentOrigin attributes:attr context:nil];
-    return CGSizeMake(ceilf(frame.size.width), ceilf(frame.size.height));
 }
 
 @end
