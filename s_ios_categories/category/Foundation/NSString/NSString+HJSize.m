@@ -10,7 +10,7 @@
 
 @implementation NSString (HJSize)
 
-+ (CGSize)sizeofString:(NSString *)string font:(UIFont *)font maxWidth:(CGFloat)width { 
++ (CGSize)hj_sizeofString:(NSString *)string font:(UIFont *)font maxWidth:(CGFloat)width { 
     CGSize constrain = CGSizeMake(width, FLT_MAX);
     NSDictionary *attr = @{NSFontAttributeName:font};
     CGRect frame = [string boundingRectWithSize:constrain options:NSStringDrawingUsesLineFragmentOrigin attributes:attr context:nil];

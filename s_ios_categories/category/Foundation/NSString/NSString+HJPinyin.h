@@ -1,5 +1,5 @@
 //
-//  NSString+HJEncrypt.h
+//  NSString+HJPinyin.h
 //  s_ios_categories
 //
 //  Created by shj on 2018/1/2.
@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (HJEncrypt)
-
-+ (NSString *)hj_md5:(NSString *)str;
+@interface NSString (HJPinyin)
 
 @end

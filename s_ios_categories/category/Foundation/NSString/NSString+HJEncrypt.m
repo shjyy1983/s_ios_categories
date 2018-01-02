@@ -11,7 +11,7 @@
 
 @implementation NSString (HJEncrypt)
 
-+ (NSString *)md5:(NSString *)str {
++ (NSString *)hj_md5:(NSString *)str {
     const char *cStr = [str UTF8String];
     unsigned char result[16];
     CC_MD5(cStr, (CC_LONG)strlen(cStr), result); // This is the md5 call

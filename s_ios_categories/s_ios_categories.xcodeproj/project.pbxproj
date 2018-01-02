@@ -17,6 +17,7 @@
 		D6021F161FFBC9D1007F6ED4 /* NOTE in Resources */ = {isa = PBXBuildFile; fileRef = D6021F151FFBC9D1007F6ED4 /* NOTE */; };
 		D6021F211FFBD2EB007F6ED4 /* NSString+HJSize.m in Sources */ = {isa = PBXBuildFile; fileRef = D6021F201FFBD2EB007F6ED4 /* NSString+HJSize.m */; };
 		D6021F241FFBD312007F6ED4 /* NSString+HJEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = D6021F231FFBD312007F6ED4 /* NSString+HJEncrypt.m */; };
+		D6021F2A1FFBD5BB007F6ED4 /* NSString+HJPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = D6021F291FFBD5BB007F6ED4 /* NSString+HJPinyin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		D6021F201FFBD2EB007F6ED4 /* NSString+HJSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HJSize.m"; sourceTree = "<group>"; };
 		D6021F221FFBD312007F6ED4 /* NSString+HJEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HJEncrypt.h"; sourceTree = "<group>"; };
 		D6021F231FFBD312007F6ED4 /* NSString+HJEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HJEncrypt.m"; sourceTree = "<group>"; };
+		D6021F281FFBD5BB007F6ED4 /* NSString+HJPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HJPinyin.h"; sourceTree = "<group>"; };
+		D6021F291FFBD5BB007F6ED4 /* NSString+HJPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HJPinyin.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,8 @@
 				D6021F201FFBD2EB007F6ED4 /* NSString+HJSize.m */,
 				D6021F221FFBD312007F6ED4 /* NSString+HJEncrypt.h */,
 				D6021F231FFBD312007F6ED4 /* NSString+HJEncrypt.m */,
+				D6021F281FFBD5BB007F6ED4 /* NSString+HJPinyin.h */,
+				D6021F291FFBD5BB007F6ED4 /* NSString+HJPinyin.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 			files = (
 				458D88311FFB77EE00A7219F /* ViewController.m in Sources */,
 				D6021F241FFBD312007F6ED4 /* NSString+HJEncrypt.m in Sources */,
+				D6021F2A1FFBD5BB007F6ED4 /* NSString+HJPinyin.m in Sources */,
 				458D882E1FFB77EE00A7219F /* AppDelegate.m in Sources */,
 				458D882B1FFB77EE00A7219F /* main.m in Sources */,
 				D6021F211FFBD2EB007F6ED4 /* NSString+HJSize.m in Sources */,

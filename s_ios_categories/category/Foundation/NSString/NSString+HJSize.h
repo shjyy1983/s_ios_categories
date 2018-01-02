@@ -10,6 +10,6 @@
 
 @interface NSString (HJSize)
 
-+ (CGSize)sizeofString:(NSString *)string font:(UIFont *)font maxWidth:(CGFloat)width;
++ (CGSize)hj_sizeofString:(NSString *)string font:(UIFont *)font maxWidth:(CGFloat)width;
 
 @end
