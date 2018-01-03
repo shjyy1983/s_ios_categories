@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "s_ios_categories"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "这是一个在iOS上的分类工具库，语言使用 ObjectC."
 
   # This description is used to generate tags and improve search results.
