@@ -41,6 +41,8 @@
 		458D88351FFB77EE00A7219F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		458D88381FFB77EE00A7219F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		458D883A1FFB77EE00A7219F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45CEA97E1FFC6C4B00537089 /* HJCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJCategories.h; sourceTree = "<group>"; };
+		45CEA97F1FFC6C4B00537089 /* HJFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJFoundation.h; sourceTree = "<group>"; };
 		D6021F071FFBC774007F6ED4 /* s_ios_categoriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = s_ios_categoriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6021F091FFBC774007F6ED4 /* s_ios_categoriesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = s_ios_categoriesTests.m; sourceTree = "<group>"; };
 		D6021F0B1FFBC774007F6ED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -128,6 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				D6021F171FFBCD35007F6ED4 /* Foundation */,
+				45CEA97F1FFC6C4B00537089 /* HJFoundation.h */,
+				45CEA97E1FFC6C4B00537089 /* HJCategories.h */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -473,6 +477,7 @@
 				D6021F0F1FFBC774007F6ED4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
