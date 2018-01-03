@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.source_files  = "s_ios_categories/category/*.{h,m}", "s_ios_categories/category/**/*.{h,m}"
+  s.source_files  = "s_ios_categories/category/*.{h,m,swift}", "s_ios_categories/category/**/*.{h,m,swift}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
