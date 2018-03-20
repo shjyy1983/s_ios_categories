@@ -1,0 +1,32 @@
+{
+  "name": "s_ios_categories",
+  "version": "0.1.0",
+  "summary": "A short description of s_ios_categories.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shjyy1983",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shjyy1983@163.com": "shjyy1983@163.com"
+  },
+  "source": {
+    "git": "https://github.com/shjyy1983/s_ios_categories.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "s_ios_categories/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "ObjectC",
+      "source_files": "s_ios_categories/Classes/ObjectC/*.{h,m}"
+    },
+    {
+      "name": "Swift",
+      "source_files": "s_ios_categories/Classes/Swift/*.swift"
+    }
+  ]
+}

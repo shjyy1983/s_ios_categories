@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 's_ios_categories_Example' do
+  pod 's_ios_categories', :path => '../'
+
+  target 's_ios_categories_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

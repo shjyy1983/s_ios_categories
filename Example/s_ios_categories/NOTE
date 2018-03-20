@@ -1,0 +1,7 @@
+
+git add .
+git commit -m 'dev'
+git push origin master
+git tag -a 0.1.2 -m 'dev'
+git push origin --tags
+pod repo push SSpecs s_ios_chatui.podspec

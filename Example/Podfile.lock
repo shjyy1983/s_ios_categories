@@ -1,0 +1,20 @@
+PODS:
+  - s_ios_categories (0.1.0):
+    - s_ios_categories/ObjectC (= 0.1.0)
+    - s_ios_categories/Swift (= 0.1.0)
+  - s_ios_categories/ObjectC (0.1.0)
+  - s_ios_categories/Swift (0.1.0)
+
+DEPENDENCIES:
+  - s_ios_categories (from `../`)
+
+EXTERNAL SOURCES:
+  s_ios_categories:
+    :path: ../
+
+SPEC CHECKSUMS:
+  s_ios_categories: 30687b6f6bc756c6d0869ab3545bcba0440d2ec5
+
+PODFILE CHECKSUM: a7f9c620ea029addc343b2f4136eed017a934bda
+
+COCOAPODS: 1.4.0
