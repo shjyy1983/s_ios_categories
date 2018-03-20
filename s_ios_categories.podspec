@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 's_ios_categories'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of s_ios_categories.'
+  s.summary          = '分类方法，包含 swift 和 ObjectC.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
