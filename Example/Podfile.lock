@@ -1,9 +1,9 @@
 PODS:
-  - s_ios_categories (0.1.0):
-    - s_ios_categories/ObjectC (= 0.1.0)
-    - s_ios_categories/Swift (= 0.1.0)
-  - s_ios_categories/ObjectC (0.1.0)
-  - s_ios_categories/Swift (0.1.0)
+  - s_ios_categories (0.1.3):
+    - s_ios_categories/ObjectC (= 0.1.3)
+    - s_ios_categories/Swift (= 0.1.3)
+  - s_ios_categories/ObjectC (0.1.3)
+  - s_ios_categories/Swift (0.1.3)
 
 DEPENDENCIES:
   - s_ios_categories (from `../`)
@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  s_ios_categories: 30687b6f6bc756c6d0869ab3545bcba0440d2ec5
+  s_ios_categories: 2ec89d53740dce6163ce46fd9f301a8ec300eb92
 
 PODFILE CHECKSUM: a7f9c620ea029addc343b2f4136eed017a934bda
 

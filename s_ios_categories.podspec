@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 's_ios_categories'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = '分类方法，包含 swift 和 ObjectC.'
 
 # This description is used to generate tags and improve search results.

@@ -1,7 +1,7 @@
 {
   "name": "s_ios_categories",
-  "version": "0.1.0",
-  "summary": "A short description of s_ios_categories.",
+  "version": "0.1.3",
+  "summary": "分类方法，包含 swift 和 ObjectC.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/shjyy1983",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/shjyy1983/s_ios_categories.git",
-    "tag": "0.1.0"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "8.0"
