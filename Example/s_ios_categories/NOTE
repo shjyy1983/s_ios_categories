@@ -6,3 +6,8 @@ git push origin master
 git tag -a 0.1.2 -m 'dev'
 git push origin --tags
 pod repo push SSpecs s_ios_categories.podspec
+
+
+如果依赖了其他私有库，所以需要指定私有 Spec
+pod lib lint --sources=https://github.com/shjyy1983/SSpecs.git,https://github.com/CocoaPods/Specs.git --allow-warnings
+pod repo push SSpecs s_ios_categories.podspec --sources=https://github.com/shjyy1983/SSpecs.git,https://github.com/CocoaPods/Specs.git --allow-warnings

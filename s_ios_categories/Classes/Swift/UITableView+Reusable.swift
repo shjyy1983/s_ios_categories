@@ -8,11 +8,11 @@
 
 import UIKit
 
-protocol Reusable: class {
+public protocol Reusable: class {
     static var identifier: String { get }
 }
 
-extension Reusable  {
+public extension Reusable  {
     static var identifier: String { return String(describing: self) }
 }
 
