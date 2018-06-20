@@ -10,19 +10,10 @@ import UIKit
 import s_ios_categories
 
 class ViewController: UIViewController {
-    lazy var box: UIView = {
-        let box = UIView()
-        box.backgroundColor = .green
-        box.width = 100
-        box.height = 100
-        box.left = 10
-        box.top = 74
-        return box
-    }()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.addSubview(box)
     }
 
 }
