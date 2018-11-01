@@ -36,7 +36,7 @@ public extension UIView {
         set { self.frame.origin.x = newValue }
     }
     
-    public var centerX: CGFloat{
+    public var centerX: CGFloat {
         get { return self.center.x }
         set { self.center = CGPoint(x: newValue,y: self.centerY) }
     }
